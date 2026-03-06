@@ -161,6 +161,16 @@ body {
     
 }
 
+/* rotated icon for newsletter */
+.rotated-icon {
+    width: 32px; /* 200% bigger than original 16px */
+    height: 32px;
+    display: inline-block;
+    margin-left: 2px;
+    transform: rotate(25deg) translateY(-1.0rem) translateX(0.10rem); /* r translaotate opposite direction and move up */
+    vertical-align: middle;
+}
+
 /* Main Content */
 .main-content {
     max-width: 1200px;
@@ -429,6 +439,18 @@ font-size: 3.2rem;
     font-size: 1.5rem;
     border-left: 4px solid var(--primary-gold);
     padding-left: 1rem;
+}
+
+/* newsletter styling */
+.newsletter-content .subheader {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.newsletter-body {
+    line-height: 1.6;
+    color: var(--primary-dark);
 }
 
 .opportunity-item {
